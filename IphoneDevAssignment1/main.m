@@ -11,11 +11,18 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
+        // Create an instance of XYPoint
         XYPoint *myXYPoint = [[XYPoint alloc] init];
-        [myXYPoint setX: 3];
-        [myXYPoint setY: 4];
-        NSLog(@"The value of the Cartesian coordinate is: ");
+        // Declare and ask the values of x and y variables
+        int xInt, yInt;
+        printf("What is the x coordinate? \n");
+        scanf("%d", &xInt);
+        printf("What is the y coordinate? \n");
+        scanf("%d", &yInt);
+        // Set X and Y coordinates
+        [myXYPoint setX: xInt];
+        [myXYPoint setY: yInt];
+        // Print coordinates
         [myXYPoint print];
     }
     return 0;

@@ -13,8 +13,9 @@
     int xAxis;
     int yAxis;
 }
+//Instance methods
 -(void) print {
-    NSLog(@"(%i,%i)", xAxis, yAxis);
+    NSLog(@"The value of the Cartesian coordinate is: (%i,%i)", xAxis, yAxis);
 }
 -(void) setX: (int) x {
     xAxis = x;
