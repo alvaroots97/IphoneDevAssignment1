@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		82EAA32B25098D9F0074871C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EAA32A25098D9F0074871C /* main.m */; };
+		82EAA3332509947E0074871C /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EAA3322509947E0074871C /* XYPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		82EAA32725098D9F0074871C /* IphoneDevAssignment1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IphoneDevAssignment1; sourceTree = BUILT_PRODUCTS_DIR; };
 		82EAA32A25098D9F0074871C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82EAA3312509947E0074871C /* XYPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
+		82EAA3322509947E0074871C /* XYPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				82EAA32A25098D9F0074871C /* main.m */,
+				82EAA3312509947E0074871C /* XYPoint.h */,
+				82EAA3322509947E0074871C /* XYPoint.m */,
 			);
 			path = IphoneDevAssignment1;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82EAA32B25098D9F0074871C /* main.m in Sources */,
+				82EAA3332509947E0074871C /* XYPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,11 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "XYPoint.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        XYPoint *myXYPoint = [[XYPoint alloc] init];
+        [myXYPoint setX: 3];
+        [myXYPoint setY: 4];
+        NSLog(@"The value of the Cartesian coordinate is: ");
+        [myXYPoint print];
     }
     return 0;
 }
